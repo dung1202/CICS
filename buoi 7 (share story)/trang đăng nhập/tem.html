@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: #b1beea;
+            display: flex;
+            justify-content: space-between;
+            height: 64px;
+            align-items: center;
+            padding: 0 5%;
+        }
+        .logo{
+            display: flex;
+            align-items: center;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .branch{
+            font-size: 2rem;
+            color: #fff;
+            margin-left: 20px;
+            font-family: 'Nerko One', cursive;
+        }
+        .user-info{
+            font-size: 1.5rem;
+            text-align: center;
+            display: flex;
+        }
+        .btn{
+            background-color: transparent;
+            border: none;
+            margin-left: 20px;
+            cursor: pointer;
+            outline: none;
+            font-size: 1.5rem;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="https://image.flaticon.com/icons/png/512/856/856994.png" height="50px"   width="50px">
+            <div class="branch">Share story</div>
+        </div>
+        <div class="user-info">
+            <div class="avatar">
+                <i class="fa fa-user-circle" aria-hidden="true"></i>
+            </div>
+            <button class="btn">
+                <i class="fa fa-sign-out" aria-hidden="true"></i>
+            </button>
+        </div>
+    </div>
+</body>
+
+</html>
